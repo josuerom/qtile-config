@@ -74,11 +74,12 @@ setxkbmap latam &
 nitrogen --set-zoom-fill --save ~/.config/qtile/wall.png &
 ```
 
-Para que las herramientos del archivo puedan iniciarse, debe concederle permisos de ejecución
+Para que las herramientas del archivo puedan iniciarse, debe concederle permisos de ejecución
 
 ```bash
 sudo chmod +x ~/.config/qtile/autostart.sh
 ```
+
 Si quieres añadir o quitar atajos de teclado, abre ```./settings/keys.py```.
 Para añadir o quitar espacios de trabajos, debes modificar
 ```./settings/groups.py```. Finalmente, si quieres añadir nuevos *layouts*,
@@ -99,6 +100,6 @@ coloca su nombre en un archivo llamado ```./config.json```:
 
 <div>
 <p style = 'text-align:center;'>
-<img src="https://github.com/antoniosarosi/dotfiles/blob/master/.screenshots/qtile.png" alt="Qtile Sarosi">
+<img src="https://github.com/antoniosarosi/dotfiles/blob/master/.screenshots/qtile.png" alt="Qtile">
 </p>
 </div>
